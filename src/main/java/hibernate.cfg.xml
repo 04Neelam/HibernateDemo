@@ -23,7 +23,7 @@
 		</property>
 
 		<!--for create,drop, validate, update table -->
-		<property name="hibernate.hbm2ddl.auto">create-drop</property>
+		<property name="hibernate.hbm2ddl.auto">create</property>
 
 		<!-- show sql queries in console -->
 		<property name="show_sql">true</property>
@@ -32,7 +32,10 @@
 		<!-- <mapping resource = "hibernate.hbm.xml"/> -->
 
 		<!-- model class to map -->
-		<mapping class="com.scp.hibernateDemo.Student" />
+		<mapping class="com.scp.InheritanceDemo.Parent" />
+		<mapping class="com.scp.InheritanceDemo.Child1" />
+		<mapping class="com.scp.InheritanceDemo.Child2" />
+		
 
 	</session-factory>
 </hibernate-configuration>

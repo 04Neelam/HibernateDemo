@@ -4,13 +4,13 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
 
 <hibernate-mapping>
-   <class name = "com.scp.hibernateDemo.Student" table = "STUDENT">
+   <class name = "InheritanceInHibernate.Student" table = "STUDENT">
       
       <meta attribute = "class-description">
          This class contains the student detail. 
       </meta>
       
-      <id name = "rollno." type = "java.lang.Integer" column = "rollno.">
+      <id name = "rollno" type = "java.lang.Integer" column = "rollno">
          <generator class="native"/>
       </id>
       
