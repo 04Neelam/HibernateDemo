@@ -32,10 +32,7 @@
 		<!-- <mapping resource = "hibernate.hbm.xml"/> -->
 
 		<!-- model class to map -->
-		<mapping class="com.scp.InheritanceDemo.Parent" />
-		<mapping class="com.scp.InheritanceDemo.Child1" />
-		<mapping class="com.scp.InheritanceDemo.Child2" />
-		
-
+		<mapping class="com.scp.OneToOneMapping.Vehicle" />
+		<mapping class="com.scp.OneToOneMapping.User" />
 	</session-factory>
 </hibernate-configuration>
